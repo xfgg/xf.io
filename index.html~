@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html class="" lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <title>简历生成器</title>
+    <link rel="stylesheet" href="index_files/style.css">
+    <link rel="stylesheet" href="index_files/remodal.css">
+    <link rel="stylesheet" href="index_files/remodal-default-theme.css">
+    <script src="index_files/jquery.js"></script>
+    <script src="index_files/remodal.js"></script>
+    <script src="index_files/script.js"></script>
+</head>
+
+<body style="padding-right: 0px;">
+    <div class="container" id="cv">
+        <div class="side">
+            <div class="me">
+                <div style="background-image: url(&quot;https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1583922418830&amp;di=66ffe6b6a2af73b327c57e39debc43ff&amp;imgtype=0&amp;src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20180827%2F99e6ef3da45b41769809bbbffb1c4a4d.gif&quot;);" class="portrait"></div>
+                
+                <h1 id="username" contenteditable="true">xfgg</h1>
+                <h4 id="persona-tag" contenteditable="true">java / web / 网络安全</h4>
+            </div>
+            <div class="profile info-unit">
+                <h2 class="info-header"><i class="iconfont icon-person"></i> <span class="info-title" contenteditable="true">基本信息</span><span style="visibility: hidden;" class="item-add"><i class="iconfont icon-playlistadd"></i></span><span style="visibility: hidden;" class="unit-remove"><i class="iconfont icon-delete"></i></span></h2>
+                <hr>
+                <ul class="info-list">
+                    <li>
+                        <label class="left-label" contenteditable="true">姓名</label><span class="label-value" contenteditable="true">薛峰</span><span style="visibility: hidden;" class="item-remove"><i class="iconfont icon-delete"></i></span></li>
+                    <li>
+                        <label class="left-label" contenteditable="true">学历</label><span class="label-value" contenteditable="true">本科</span><span style="visibility: hidden;" class="item-remove"><i class="iconfont icon-delete"></i></span></li>
+                    <li>
+                        <label class="left-label" contenteditable="true">毕业院校</label><span class="label-value" contenteditable="true">福建农林大学</span><span class="item-remove"><i class="iconfont icon-delete"></i></span></li>
+                    <li>
+                        <label class="left-label" contenteditable="true">毕业年份</label><span class="label-value" contenteditable="true">not yet</span><span class="item-remove"><i class="iconfont icon-delete"></i></span></li>
+                </ul>
+            </div>
+            <div class="contact info-unit">
+                <h2 class="info-header"><i class="iconfont icon-call"></i> <span class="info-title" contenteditable="true">联系方式</span><span style="visibility: hidden;" class="item-add"><i class="iconfont icon-playlistadd"></i></span><span style="visibility: hidden;" class="unit-remove"><i class="iconfont icon-delete"></i></span></h2>
+                <hr>
+                <ul class="info-list">
+                    <li>
+                        <label class="left-label" contenteditable="true">手机</label><span class="label-value" contenteditable="true">18505070785</span><span style="visibility: hidden;" class="item-remove"><i class="iconfont icon-delete"></i></span></li>
+                    <li>
+                        <label class="left-label" contenteditable="true">邮箱</label><span class="label-value" contenteditable="true">898294307@qq.com</span><span style="visibility: hidden;" class="item-remove"><i class="iconfont icon-delete"></i></span></li>
+                    <li>
+                        <label class="left-label" contenteditable="true">个人主页</label><span class="label-value" contenteditable="true">working on it</span><span style="visibility: hidden;" class="item-remove"><i class="iconfont icon-delete"></i></span></li>
+                    <li>
+                        <label class="left-label" contenteditable="true">Github</label><span class="label-value" contenteditable="true">github.com/xfgg</span><span style="visibility: hidden;" class="item-remove"><i class="iconfont icon-delete"></i></span></li>
+                </ul>
+            </div>
+            <div class="skill info-unit">
+                <h2 class="info-header"><i class="iconfont icon-star"></i> <span class="info-title" contenteditable="true">技能点</span><span style="visibility: hidden;" class="item-add"><i class="iconfont icon-playlistadd"></i></span><span style="visibility: hidden;" class="unit-remove"><i class="iconfont icon-delete"></i></span></h2>
+                <hr>
+                <ul class="progress-list">
+                    <li>
+                        <label class="left-label" contenteditable="true">java</label>
+                        <progress value="90" max="100"></progress>
+                    <span class="item-remove"><i class="iconfont icon-delete"></i></span></li>
+                    <li>
+                        <label class="left-label" contenteditable="true">html/css</label>
+                        <progress value="60" max="100"></progress>
+                    <span class="item-remove"><i class="iconfont icon-delete"></i></span></li>
+                    <li>
+                        <label class="left-label" contenteditable="true">python</label>
+                        <progress value="60" max="100"></progress>
+                    <span class="item-remove"><i class="iconfont icon-delete"></i></span></li>
+                    <li>
+                        <label class="left-label" contenteditable="true">c语言</label>
+                        <progress value="80" max="100"></progress>
+                    <span class="item-remove"><i class="iconfont icon-delete"></i></span></li>
+                </ul>
+            </div>
+            <div class="stack info-unit">
+                <h2 class="info-header"><i class="iconfont icon-build"></i> <span class="info-title" contenteditable="true">技术栈</span><span class="item-add"><i class="iconfont icon-playlistadd"></i></span><span class="unit-remove"><i class="iconfont icon-delete"></i></span></h2>
+                <hr>
+                <ul class="stack-list">
+                    <li>
+                        <label class="left-label" contenteditable="true">熟悉各类框架</label><span class="label-value" contenteditable="true">struts,spring,springmvc,SSM</span><span class="item-remove"><i class="iconfont icon-delete"></i></span></li>
+                    
+                    <li>
+                        <label class="left-label" contenteditable="true">掌握十八种设计模式</label><span class="label-value" contenteditable="true">工厂模式，单例模式，桥接模式等等</span><span class="item-remove"><i class="iconfont icon-delete"></i></span></li>
+                    
+                    <li>
+                        <label class="left-label" contenteditable="true">熟悉C语言和各种算法</label><span class="label-value" contenteditable="true">在leetcode上刷题目</span><span class="item-remove"><i class="iconfont icon-delete"></i></span></li>
+                    
+		     <li>
+                        <label class="left-label" contenteditable="true">了解网络安全和python</label><span class="label-value" contenteditable="true">对黑客的憧憬</span><span class="item-remove"><i class="iconfont icon-delete"></i></span></li>
+                    
+                </ul>
+            </div>
+
+            <div class="code info-unit">
+                <h2 class="info-header"><i class="iconfont icon-weixin"></i> <span class="info-title" contenteditable="true">个人微信</span><span class="unit-remove"><i class="iconfont icon-delete"></i></span></h2>
+                <hr>
+                <div class="weixin">
+                    <img src="index_files/weixin.png" alt="">
+
+                </div>
+            </div>
+            
+        </div>
+        <div class="main">
+            <div class="education info-unit right-list">
+                <h2 class="info-header"><i class="iconfont icon-education"></i> <span class="info-title" contenteditable="true">教育经历</span><span class="item-add"><i class="iconfont icon-playlistadd"></i></span><span class="unit-remove"><i class="iconfont icon-delete"></i></span></h2>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3 contenteditable="true">福建农林大学 - 网络工程专业（本科）2017 - ???</h3>
+                        <p contenteditable="true">
+                            部门副部长，擅长修电脑，参加过网络安全比赛，网页设计比赛，acm比赛,英语四六级
+                        </p>
+                    <span style="visibility: hidden;" class="item-remove"><i class="iconfont icon-delete"></i></span></li>
+                </ul>
+            </div>
+            <div class="work info-unit right-list">
+                <h2 class="info-header"><i class="iconfont icon-work"></i> <span class="info-title" contenteditable="true">工作经历</span><span style="visibility: hidden;" class="item-add"><i class="iconfont icon-playlistadd"></i></span><span style="visibility: hidden;" class="unit-remove"><i class="iconfont icon-delete"></i></span></h2>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3 contenteditable="true">nothing</h3>
+                        <p contenteditable="true">
+                        </p>
+                    <span style="visibility: hidden;" class="item-remove"><i class="iconfont icon-delete"></i></span></li>
+            
+                </ul>
+            </div>
+            <div class="project info-unit right-list">
+                <h2 class="info-header"><i class="iconfont icon-project"></i> <span class="info-title" contenteditable="true">个人项目</span><span style="visibility: visible;" class="item-add"><i class="iconfont icon-playlistadd"></i></span><span style="visibility: visible;" class="unit-remove"><i class="iconfont icon-delete"></i></span></h2>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3 contenteditable="true">个人网站</h3>
+                        <p contenteditable="true">
+                            working on it
+                            <br>
+                        </p>
+                    <span style="visibility: hidden;" class="item-remove"><i class="iconfont icon-delete"></i></span></li>
+                    <li>
+                        <h3 contenteditable="true">个人博客（网络安全）</h3>
+                        <p contenteditable="true">
+              		https://xfgg.github.io/ 主要包括linux，pwn，python等等</p>
+                    <span style="visibility: hidden;" class="item-remove"><i class="iconfont icon-delete"></i></span></li>
+                    <li>
+                        <h3 contenteditable="true">csdn博客（java 算法）</h3>
+                        <p contenteditable="true">
+                            https://me.csdn.net/qq_42337039&nbsp; 主要包括java，各种框架，leetcode上的算法总结，设计模式，后端开发等等<br></p>
+                    <span style="visibility: hidden;" class="item-remove"><i class="iconfont icon-delete"></i></span></li>
+                    <li>
+                        <h3 contenteditable="true">研究过很多github项目</h3>
+                        <p contenteditable="true">
+              		such as&nbsp; 各种个人网站，疫情流动模型，SSM项目，后台管理项目等等<br></p>
+                    <span style="visibility: hidden;" class="item-remove"><i class="iconfont icon-delete"></i></span></li>
+                <li>
+                        <h3 contenteditable="true">Nigix项目<br></h3>
+                        <p contenteditable="true">
+                            用docke部署Nigix项目<br>
+                        </p>
+                    <span style="visibility: hidden;" class="item-remove"><i class="iconfont icon-delete"></i></span></li><li>
+                        <h3 contenteditable="true">exg.io<br></h3>
+                        <p contenteditable="true">
+                            部门工作时间分配，进行到一半，希望以后可以完成<br>
+                        </p>
+                    <span style="visibility: hidden;" class="item-remove"><i class="iconfont icon-delete"></i></span></li></ul>
+            </div>
+               
+            <div class="aboutme info-unit right-paragraph">
+                <h2 class="info-header"><i class="iconfont icon-flower"></i> <span class="info-title" contenteditable="true">自我评价</span><span style="visibility: hidden;" class="unit-remove"><i class="iconfont icon-delete"></i></span></h2>
+                <hr>
+                <p contenteditable="true">
+                    认真 积极 喜欢健身和做菜，学习能力极强,各种奖项等等</p>
+            </div>
+        </div>
+    </div>
+
+
+<div style="display: none;" class="remodal-overlay remodal-is-closed"></div><div style="display: none;" class="remodal-wrapper remodal-is-closed"><div tabindex="-1" class="remodal remodal-img remodal-is-initialized remodal-is-closed" data-remodal-id="portrait-modal">
+                    <h3 contenteditable="true">请输入图片URL地址：</h3>
+                    <br>
+                    <input value="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1583922418830&amp;di=66ffe6b6a2af73b327c57e39debc43ff&amp;imgtype=0&amp;src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20180827%2F99e6ef3da45b41769809bbbffb1c4a4d.gif" id="avatar-url" type="text">
+                    <button data-remodal-action="confirm" class="remodal-confirm">确定</button>
+                </div></div><div style="display: none;" class="remodal-wrapper remodal-is-closed"><div tabindex="-1" class="remodal remodal-img remodal-is-initialized remodal-is-closed" data-remodal-id="weixin-modal">
+                <h3 contenteditable="true">请输入图片URL地址：</h3>
+                <br>
+                <input id="weixin-url" type="text">
+                <button data-remodal-action="confirm" class="remodal-confirm">确定</button>
+            </div></div></body></html>
